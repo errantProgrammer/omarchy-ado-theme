@@ -11,7 +11,6 @@ window {
     background-color: @bg;
     border: 2px solid @gray3;
 }
-
 input {
     background-color: @bg;
     color: @fg;

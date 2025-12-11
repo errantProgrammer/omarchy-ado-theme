@@ -221,6 +221,23 @@ hi("WhichKeyGroup", { fg = colors.red })
 hi("WhichKeyDesc", { fg = colors.fg })
 hi("WhichKeySeperator", { fg = colors.yellow })
 
+-- Render Markdown
+-- Fondos (Backgrounds)
+hi("RenderMarkdownH1Bg", { bg = colors.blue })
+hi("RenderMarkdownH2Bg", { bg = colors.red })
+hi("RenderMarkdownH3Bg", { bg = colors.green })
+hi("RenderMarkdownH4Bg", { bg = colors.magenta })
+hi("RenderMarkdownH5Bg", { bg = colors.cyan })
+hi("RenderMarkdownH6Bg", { bg = colors.black })
+
+-- Textos (Foregrounds)
+hi("RenderMarkdownH1", { fg = colors.white, style = "bold" })
+hi("RenderMarkdownH2", { fg = colors.white, style = "bold" })
+hi("RenderMarkdownH3", { fg = colors.white, style = "bold" })
+hi("RenderMarkdownH4", { fg = colors.white, style = "bold" })
+hi("RenderMarkdownH5", { fg = colors.white, style = "bold" })
+hi("RenderMarkdownH6", { fg = colors.white, style = "bold" })
+
 -- Terminal
 vim.g.terminal_color_0 = colors.black
 vim.g.terminal_color_1 = colors.blush
